@@ -1,0 +1,41 @@
+<svg id="write-document" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect id="write-doc-background" width="100%" height="100%" fill="#808080"/>
+<defs id="write-defs">
+<script type="text/writeconfig">
+  <int name="docFormatVersion" value="2" />
+  <int name="pageNum" value="0" />
+  <float name="xOffset" value="-20" />
+  <float name="yOffset" value="-10" />
+</script>
+</defs>
+<svg class="write-page" color-interpolation="linearRGB" x="10" y="10" width="816" height="1056" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g class="write-content write-v3" width="816" height="1056" xruling="0" yruling="50" marginLeft="100" papercolor="#EBF0DD" rulecolor="#519682">
+    <g class="ruleline write-scale-down" color="#519682" shape-rendering="crispEdges" vector-effect="non-scaling-stroke">
+      
+      <pattern id="ruling" x="96" y="48" width="96" height="96" patternUnits="userSpaceOnUse">
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="2" d="M0 0 l96 0 l0 96 l-96 0 z" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M0 19.2 l96 0" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M0 38.4 l96 0" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M0 57.6 l96 0" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M0 76.8 l96 0" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M19.2 0 l0 96" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M38.4 0 l0 96" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M57.6 0 l0 96" />
+        <path fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1" d="M76.8 0 l0 96" />
+      </pattern>
+      <rect class="pagerect" fill="#FFFFFF" x="0" y="0" width="816" height="1050" />
+      <rect fill="url(#ruling)" x="96" y="48" width="672" height="960" />
+      <path class="leftmargin" stroke="currentColor" stroke-opacity="1.0" stroke-width="2" d="M96 0 l0 1056" />
+      <path class="rightmargin" stroke="currentColor" stroke-opacity="1.0" stroke-width="2" d="M768 0 l0 1056" />
+      <path class="topmargin" stroke="currentColor" stroke-opacity="1.0" stroke-width="2" d="M0 48 l816 0" />
+      <path class="toprule" stroke="currentColor" stroke-opacity="1.0" stroke-width="2" d="M320 0 l0 48" />
+      <path class="toprule" stroke="currentColor" stroke-opacity="1.0" stroke-width="2" d="M544 0 l0 48" />
+    </g>
+  </g>
+</svg>
+<defs>
+<style type="text/css"><![CDATA[
+  #write-document, #write-doc-background { width: 836px;  height: 1076px; }
+]]></style>
+</defs>
+</svg>
